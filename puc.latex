@@ -183,11 +183,6 @@ $endif$
 \usepackage{algorithm}
 \floatname{algorithm}{Algoritmo}
 
-% Listas
-\usepackage{enumitem}
-\setlist[1]{label=\emph{\alph*}\symbol{41}}
-\setlist[2]{label=\emph{\roman*}\symbol{41}}
-
 % Multicolumns
 \usepackage{multicol}
 
