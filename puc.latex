@@ -7,10 +7,13 @@ $if(documentclass)$
 \documentclass[spanish]{scrartcl}
 $endif$
 
+\usepackage{etoolbox}
+
 % Add PUC logo before title
 \makeatletter
-\def\@maketitle{
-\hbox{%
+\patchcmd{\@maketitle}
+{\begin{center}}
+{\hbox{%
   \raisebox{-18pt}{\includegraphics[scale=0.75]{/home/francisco/Documents/latex/logo.pdf}}
   \vbox{%
     \hbox{\textsc{Pontificia Universidad Cat\'olica de Chile}}
@@ -18,11 +21,8 @@ $endif$
     \hbox{\textsc{Departamento de Ciencia de la Computaci\'on}}
   }
 }
-\begin{center}
-{\Huge \bfseries \sffamily \@title}\\[4ex]
-{\Large  \@author}\\[4ex]
-\@date\\[8ex]
-\end{center}}
+\begin{center}}
+{}{}
 \makeatother
 
 $if(fontfamily)$
