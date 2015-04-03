@@ -175,7 +175,7 @@ $endif$
 \usepackage{pgfplots}
 
 % Para código
-\usepackage{minted}
+% \usepackage{minted}
 
 % Pseudocódigo
 \usepackage{caption}
