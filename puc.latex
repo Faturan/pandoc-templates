@@ -4,7 +4,7 @@
 $if(documentclass)$
 % \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
 % Koma-script
-\documentclass[spanish]{scrartcl}
+\documentclass[spanish, paper=letter, pagesize]{scrartcl}
 $endif$
 
 % Add PUC logo before title
