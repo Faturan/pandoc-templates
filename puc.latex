@@ -11,7 +11,7 @@ $endif$
 \titlehead{%
   \hbox{%
     \hspace*{-12pt}
-    \raisebox{-18pt}{\includegraphics[scale=0.75]{/home/francisco/Documents/latex/logo.pdf}}
+    \raisebox{-18pt}{\includegraphics[width=2.6cm]{/home/francisco/Documents/latex/logo.pdf}}
     \vbox{%
       \hbox{\textsc{Pontificia Universidad Cat\'olica de Chile}}
       \hbox{\textsc{Escuela de Ingenier\'\i{}a}}
