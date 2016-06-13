@@ -184,7 +184,11 @@ $endif$
 \usepackage{caption}
 \usepackage[noend]{algpseudocode}
 \usepackage{algorithm}
-\floatname{algorithm}{Algoritmo}
+
+\makeatletter
+\addto\captionsspanish{\renewcommand{\ALG@name}{Algoritmo}}
+\addto\captionsenglish{\renewcommand{\ALG@name}{Algorithm}}
+\makeatother
 
 % Multicolumns
 \usepackage{multicol}
